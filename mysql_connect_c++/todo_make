@@ -1,0 +1,11 @@
+need:
+mysql_connect
+boost
+openssl
+
+
+g++ -std=c++11 -I ./mc/include/  -I ./entity -I ./dao -L ./mc/lib64 -lmysqlcppconn test.cpp
+
+find libmysqlcppconn.so.7
+pwd
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:pwd
