@@ -2,5 +2,5 @@ github add new project
 git init
 git add
 git commit -m''
-git remote add origin https://github.com/ubw/foo.git
+git remote add origin https://github.com/ubw/mysql_connect_c-.git
 git push -u origin master
